@@ -1,0 +1,41 @@
+.login-bg {
+  height: 100vh;
+  background: url("https://gulms.galgotiasuniversity.org/pluginfile.php/1/theme_academi/slide1image/1765864089/pica.png") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 360px;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(12px);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  color: rgb(17, 16, 16);
+}
+
+.login-card img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: none;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 10px;
+  background: #002147;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}

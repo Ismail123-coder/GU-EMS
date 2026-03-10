@@ -1,0 +1,38 @@
+.navbar {
+  height: 70px;
+  background: #002147;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-left img {
+  height: 45px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links a {
+  font-weight: 500;
+}
+
+.nav-links button {
+  background: #ff4b4b;
+  border: none;
+  padding: 7px 14px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
